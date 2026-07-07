@@ -15,12 +15,11 @@ jobs:
         with:
           node-version: 24
 
+      - name: Enable pnpm via corepack
+        run: corepack enable && corepack prepare pnpm@latest --activate
+
       - name: Install Vercel CLI
         run: npm install -g vercel
-
-      - name: Install dependencies
-        run: npm install
-        working-directory: page
 
       - name: Pull Vercel environment
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
