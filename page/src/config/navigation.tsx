@@ -11,6 +11,7 @@ export const I = {
 
 export const NAV_LINKS = [
   { name: 'Inicio', href: '/', icon: I.home },
+  { name: 'Info', href: '/about', icon: I.info },
   { name: 'Equipo', href: '/team', icon: I.team },
   { name: 'Contacto', href: '/contact', icon: I.contact },
 ];
@@ -20,8 +21,18 @@ export const FOOTER_NAV = [
     title: 'Ciszu Network',
     links: [
       { name: 'Inicio', href: '/', icon: I.home },
+      { name: 'Sobre Nosotros', href: '/about', icon: I.info },
       { name: 'Equipo', href: '/team', icon: I.team },
       { name: 'Contacto', href: '/contact', icon: I.contact },
+    ],
+  },
+  {
+    title: 'Información',
+    links: [
+      { name: 'FAQ', href: '/faq', icon: I.info },
+      { name: 'Políticas', href: '/policies', icon: I.info },
+      { name: 'Guías', href: '/guidelines', icon: I.info },
+      { name: 'Soporte', href: '/support', icon: I.contact },
     ],
   },
 ];
