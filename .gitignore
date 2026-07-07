@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Vercel
+.vercel
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Large binary files not needed in git ---
+
+# Adobe
+*.psd
+*.ai
+
+# Archives
+*.7z
+*.rar
+*.zip
+*.wfp
+*.jar
+*.mcpack
+
+# Media
+*.mp4
+*.mp3
+*.ogg
+*.exe
+*.dll
+*.msi
+
+# Old MuzicMania icon sets (not used by CiszuNetworkPage)
+page/public/icons/
+page/public/fonts/
+
+# macOS metadata
+__MACOSX/
+._*
+
+# Large video/GIF files (exceed GitHub 100MB limit)
+content/flayers/video/
+
+# Heavy build artifacts in sub-projects
+ciszu_proyects/muzic mania/.next/
+ciszu_proyects/muzic mania/node_modules/
+ciszu_proyects/friday night funkin/mods/engines/
+ciszu_proyects/friday night funkin/mods/FNF*/
+ciszu_proyects/ciszubot/main/.git/
