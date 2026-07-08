@@ -106,17 +106,24 @@ export default function Home() {
         <div className="absolute top-1/3 right-1/4 w-64 h-64 bg-neon-blue/5 rounded-full blur-[80px] animate-blob animation-delay-4000" />
 
         <div className="relative z-10 max-w-4xl mx-auto">
-          <div className="flex items-center justify-center gap-6 mb-6">
+          <div className="flex items-center justify-center gap-6 mb-8">
             <Image
-              src="/logos/imagen/outline/isotipo/degradado/monocroma/ciszuko_logo_isotipo_outline_degradado_zblack_cwhite.svg"
+              src="/logos/imagen/outline/logotipo/degradado/color/ciszuko_logotipo_outline_degradado_color_full.png"
               alt={CISZU_NETWORK.name}
-              width={80}
+              width={320}
               height={80}
               className="drop-shadow-brand"
+              priority
             />
           </div>
-          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-brand/10 border border-brand/30 text-xs font-bold uppercase tracking-widest text-brand-light mb-6">
-            <Star className="w-3 h-3" /> {CISZU_NETWORK.tagline}
+          <div className="flex items-center justify-center mb-8">
+            <Image
+              src="/logos/tagline_white.svg"
+              alt={CISZU_NETWORK.tagline}
+              width={280}
+              height={24}
+              className="opacity-80"
+            />
           </div>
           <h1 className="text-5xl md:text-7xl font-header font-black tracking-tighter mb-6">
             <span className="bg-gradient-to-r from-brand-light via-brand-accent to-neon-blue bg-clip-text text-transparent">

@@ -61,7 +61,7 @@ export const Footer = () => {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <Image
-                src="/logos/imagen/outline/isotipo/degradado/monocroma/ciszuko_logo_isotipo_outline_degradado_zblack_cwhite.svg"
+                src="/logos/imagen/outline/isotipo/color/ciszuko_logo_isotipo_outline_zcolor_cwhite.svg"
                 alt={CISZU_NETWORK.name}
                 width={32}
                 height={32}

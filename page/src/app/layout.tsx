@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   description: "Ciszu Network desarrolla soluciones digitales de alto rendimiento. Liderados por Ciszuko Antony, CEO. Proyectos: MuzicMania, Minecraft, Discord, WhatsApp, Telegram y más.",
   keywords: ["Ciszu Network", "Ciszuko Antony", "MuzicMania", "desarrollo web", "Next.js", "Venezuela"],
   icons: {
-    icon: "/logos/imagen/outline/isotipo/degradado/monocroma/ciszuko_logo_isotipo_outline_degradado_zblack_cwhite.svg",
-    shortcut: "/logos/imagen/outline/isotipo/degradado/monocroma/ciszuko_logo_isotipo_outline_degradado_zblack_cwhite.svg",
-    apple: "/logos/imagen/outline/isotipo/degradado/monocroma/ciszuko_logo_isotipo_outline_degradado_zblack_cwhite.svg",
+    icon: "/logos/imagen/outline/isotipo/color/ciszuko_logo_isotipo_outline_zcolor_cwhite.svg",
+    shortcut: "/logos/imagen/outline/isotipo/color/ciszuko_logo_isotipo_outline_zcolor_cwhite.svg",
+    apple: "/logos/imagen/outline/isotipo/color/ciszuko_logo_isotipo_outline_zcolor_cwhite.svg",
   },
   openGraph: {
     title: "Ciszu Network — Innovación Digital",
